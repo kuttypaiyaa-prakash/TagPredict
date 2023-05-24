@@ -1,0 +1,46 @@
+/* Define general styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+.head {
+    background-color: #d70808;
+    color: #fff;
+    font-size: 24px;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Style the form */
+.text {
+    margin: 20px auto;
+    width: 400px;
+    align-items: center;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    align-items: center;
+}
+
+input[type="submit"] {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #766666;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    align-items:center ;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff0000;
+    align-items: center;
+}
